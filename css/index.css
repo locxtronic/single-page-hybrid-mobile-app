@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+  font-family: 'Roboto', sans-serif;
+}
+
+body table {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+body .bg {
+  -webkit-clip-path: ellipse(100% 40% at 50% -5%);
+          clip-path: ellipse(100% 40% at 50% -5%);
+  background-color: #272020;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body .highlight {
+  padding: 5%;
+  padding-top: 10%;
+  width: 90%;
+  height: 40%;
+  color: whitesmoke;
+}
+
+body .highlight table {
+  text-align: center;
+}
+
+body .highlight table th {
+  font-weight: 300;
+}
+
+body .highlight table td {
+  font-weight: 300;
+  padding-top: 3%;
+  font-size: 2em;
+  color: yellow;
+}
+
+body .device {
+  margin: 5%;
+  margin-top: 0;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 10px 1px #b9b9b9;
+          box-shadow: 0px 1px 10px 1px #b9b9b9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+body .device-label {
+  color: darkslategray;
+  font-size: 12px;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+body .device-address {
+  color: darkslategray;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+body .reading {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-height: 55vh;
+}
+
+body tr.list td {
+  border-bottom-color: #B0B0B0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+body .list-label {
+  padding: 10px;
+  font-weight: 600;
+  width: 60%;
+  font-size: 12px;
+}
+
+body .list-value {
+  font-weight: 700;
+  font-size: 18px;
+  right: 15%;
+  text-align: right;
+  width: 40%;
+  padding-right: 5%;
+}
+/*# sourceMappingURL=index.css.map */
